@@ -5,7 +5,7 @@ import "./Cuadricula.css"
 
 function Cuadricula() {
 
-  const criptos = usePetition("assets")
+  const [criptos] = usePetition("assets")
 
   if (!criptos) return <samp>Cargando...</samp>
 
